@@ -1,0 +1,48 @@
+[22:48:35.157 Verbose] - BuildManager - C:\Users\findc\RepoF\WebApps\FizzBuzzApp\Pages\_Host.cshtml(20,81): error CS0246: The type or namespace name 'App' could not be found (are you missing a using directive or an assembly reference?)
+[22:48:35.163 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[22:48:35.163 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' evaluated via:
+_OutputPathItem: '$(OutDir)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:309
+  OutDir: '$([MSBuild]::EnsureTrailingSlash($([MSBuild]::ValueOrDefault('$(OutDir)', '$(OutputPath)'))))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:230
+    OutDir: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+    OutputPath: '$([MSBuild]::EnsureTrailingSlash('$(OutputPath)'))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:157
+      OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:242
+        OutputPath: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+[22:48:35.163 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\FizzBuzzApp.dll.config' evaluated via:
+AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:337
+  OutDir: '$([MSBuild]::EnsureTrailingSlash($([MSBuild]::ValueOrDefault('$(OutDir)', '$(OutputPath)'))))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:230
+    OutDir: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+    OutputPath: '$([MSBuild]::EnsureTrailingSlash('$(OutputPath)'))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:157
+      OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:242
+        OutputPath: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+  TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:247
+    TargetName: '$(AssemblyName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:239
+      AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+        MSBuildProjectName: 'FizzBuzzApp'
+    TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:101
+[22:48:35.163 Verbose] - BuildManager - Item CreateDirectory 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\ref' evaluated via:
+CreateDirectory: '$(OutDir)ref' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:394
+  OutDir: '$([MSBuild]::EnsureTrailingSlash($([MSBuild]::ValueOrDefault('$(OutDir)', '$(OutputPath)'))))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:230
+    OutDir: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+    OutputPath: '$([MSBuild]::EnsureTrailingSlash('$(OutputPath)'))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:157
+      OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:242
+        OutputPath: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+[22:48:35.163 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\FizzBuzzApp.pdb' evaluated via:
+_DebugSymbolsOutputPath: '@(_DebugSymbolsIntermediatePath->'$(OutDir)%(Filename)%(Extension)')' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:400
+  OutDir: '$([MSBuild]::EnsureTrailingSlash($([MSBuild]::ValueOrDefault('$(OutDir)', '$(OutputPath)'))))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:230
+    OutDir: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+    OutputPath: '$([MSBuild]::EnsureTrailingSlash('$(OutputPath)'))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:157
+      OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:242
+        OutputPath: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+[22:48:35.164 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\FizzBuzzApp.dll.manifest' evaluated via:
+_ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:438
+  OutDir: '$([MSBuild]::EnsureTrailingSlash($([MSBuild]::ValueOrDefault('$(OutDir)', '$(OutputPath)'))))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:230
+    OutDir: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+    OutputPath: '$([MSBuild]::EnsureTrailingSlash('$(OutputPath)'))' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:157
+      OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:242
+        OutputPath: 'C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\b\FizzBuzzApp\bin\Debug\net5.0\' @ C:\Users\findc\RepoF\WebApps\FizzBuzzApp\FizzBuzzApp.csproj:0
+  _DeploymentTargetApplicationManifestFileName: '$(TargetFileName).manifest' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:267
+    TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:247
+      TargetName: '$(AssemblyName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:239
+        AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+          MSBuildProjectName: 'FizzBuzzApp'
+      TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\5.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:101

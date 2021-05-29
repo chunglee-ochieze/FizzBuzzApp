@@ -1,0 +1,30 @@
+﻿@page "/"
+
+@using FizzBuzzApp.Data
+
+<h1>Hi Buzzer!</h1>
+
+Feeling fizzy? Now picture this:
+<br />
+<br />
+
+@if (_fizzBuzzList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        @for (var i = 0; i < _fizzBuzzList.Count; i++)
+        {
+            <tr>
+                <td>@(i + 1)</td>
+                <td>@_fizzBuzzList[i]</td>
+            </tr>
+        }
+    </table>
+}
+
+@code {
+    private readonly List<string> _fizzBuzzList = FizzBuzz.GetFizzBuzz();
+}

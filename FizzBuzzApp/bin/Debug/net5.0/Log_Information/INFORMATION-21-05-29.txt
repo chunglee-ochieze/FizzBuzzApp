@@ -1,0 +1,16 @@
+2021-05-29 22:49:12.372 +10:00 [INF] 
+Method: GetFizzBuzz
+Message: FizzBuzz generated successfully.
+_______________________________________
+2021-05-29 22:49:21.649 +10:00 [INF] 
+Method: GetFizzBuzz
+Message: FizzBuzz generated successfully.
+_______________________________________
+2021-05-29 23:14:32.340 +10:00 [INF] 
+Method: GetFizzBuzz
+Message: FizzBuzz generated successfully.
+_______________________________________
+2021-05-29 23:14:32.904 +10:00 [INF] 
+Method: GetFizzBuzz
+Message: FizzBuzz generated successfully.
+_______________________________________

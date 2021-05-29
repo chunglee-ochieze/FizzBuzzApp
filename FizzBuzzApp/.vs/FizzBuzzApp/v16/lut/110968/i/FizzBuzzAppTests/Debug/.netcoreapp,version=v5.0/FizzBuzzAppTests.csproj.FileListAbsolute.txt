@@ -1,0 +1,3 @@
+C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\i\FizzBuzzAppTests\Debug\.netcoreapp,version=v5.0\FizzBuzzAppTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\i\FizzBuzzAppTests\Debug\.netcoreapp,version=v5.0\FizzBuzzAppTests.AssemblyInfoInputs.cache
+C:\Users\findc\RepoF\WebApps\FizzBuzzApp\.vs\FizzBuzzApp\v16\lut\0\i\FizzBuzzAppTests\Debug\.netcoreapp,version=v5.0\FizzBuzzAppTests.AssemblyInfo.cs
