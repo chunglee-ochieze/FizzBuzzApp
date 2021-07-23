@@ -3664,11 +3664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\findc\\RepoF\\WebApps\\FizzBuzzApp\\FizzBuzzApp.csproj",
+      "projectUniqueName": "C:\\Users\\findc\\RepoC\\FizzBuzzApp\\FizzBuzzApp\\FizzBuzzApp.csproj",
       "projectName": "FizzBuzzApp",
-      "projectPath": "C:\\Users\\findc\\RepoF\\WebApps\\FizzBuzzApp\\FizzBuzzApp.csproj",
+      "projectPath": "C:\\Users\\findc\\RepoC\\FizzBuzzApp\\FizzBuzzApp\\FizzBuzzApp.csproj",
       "packagesPath": "C:\\Users\\findc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\findc\\RepoF\\WebApps\\FizzBuzzApp\\obj\\",
+      "outputPath": "C:\\Users\\findc\\RepoC\\FizzBuzzApp\\FizzBuzzApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\findc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3720,7 +3720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
